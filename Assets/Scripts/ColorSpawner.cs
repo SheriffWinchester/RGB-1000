@@ -21,20 +21,12 @@ public class ColorSpawner : MonoBehaviour
         StartCoroutine(SpawnColors());
     }
 
-    void Update() {
-        // if (Input.GetMouseButtonDown(0)) {
-        //     Vector2 ray = mainCamera.ScreenToWorldPoint(spawnCoordinate); 
-        //     Debug.Log(ray);
-        // }
-        
-    }
-
     IEnumerator SpawnColors() {
         while(true) {
             spawnY = Random.Range(4.0f, -4.0f);
             forceAngleX = Random.Range(4.0f, 1.0f);
             forceAngleY = Random.Range(4.0f, -4.0f);
-            forceSpeed = Random.Range(-40f, -75f);
+            forceSpeed = Random.Range(-45f, -65f);
             spawnWait = Random.Range(1.0f, 3.5f);
             prefabRandom = Random.Range(0, 4);
 

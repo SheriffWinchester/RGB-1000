@@ -20,8 +20,6 @@ public class Hook : MonoBehaviour
     // public int playerLayer = 8;
     // int layerMask = ~(1 << playerLayer);
     
-
-    // Start is called before the first frame update
     void Start()
     {
         _LineRenderer = GetComponent<LineRenderer>();
@@ -36,22 +34,6 @@ public class Hook : MonoBehaviour
             Vector2 mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);   
             Vector2 direction = new Vector2(mousePos.x - transform.position.x, mousePos.y - transform.position.y);
             var hit = Physics2D.Linecast(transform.position, mousePos);
-
-            if (name1 == null)
-            {
-                name1 = hit.collider.gameObject.name;
-            }
-            else if (name1 != null)
-            {
-                name2 = name1;
-                name1 = hit.collider.gameObject.name;
-            }
-            Debug.Log("Slot 1: " + name1);
-            Debug.Log("Slot 2: " + name2);
-
-            // 
-            // temp = name1;
-            // name2 = temp;
 
             if (hit.collider != null)
             {

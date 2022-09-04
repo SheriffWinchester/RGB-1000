@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -1925696264967407104}
   - component: {fileID: 1071892303829905718}
   - component: {fileID: -6619508646529458628}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RedColor
   m_TagString: Colors
   m_Icon: {fileID: 0}

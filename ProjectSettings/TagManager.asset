@@ -11,6 +11,9 @@ TagManager:
   - GreenColor
   - BlueColor
   - Enemy
+  - Support
+  - Attack
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -24,7 +27,7 @@ TagManager:
   - Bullet
   - Attack
   - AttackBoundary
-  - 
+  - Enemy
   - 
   - 
   - 
