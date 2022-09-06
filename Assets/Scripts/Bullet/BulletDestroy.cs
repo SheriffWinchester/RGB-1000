@@ -15,7 +15,6 @@ public class BulletDestroy : MonoBehaviour {
         || col.collider.gameObject.tag == "Enemy")
         {
             Destroy(gameObject);
-            Debug.Log("WAAAAAAALLL");
         }
     }
 }

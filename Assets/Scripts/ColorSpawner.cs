@@ -26,7 +26,7 @@ public class ColorSpawner : MonoBehaviour
             spawnY = Random.Range(4.0f, -4.0f);
             forceAngleX = Random.Range(4.0f, 1.0f);
             forceAngleY = Random.Range(4.0f, -4.0f);
-            forceSpeed = Random.Range(-45f, -65f);
+            forceSpeed = Random.Range(-50f, -100f);
             spawnWait = Random.Range(1.0f, 3.5f);
             prefabRandom = Random.Range(0, 4);
 

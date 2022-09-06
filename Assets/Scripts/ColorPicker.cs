@@ -23,8 +23,9 @@ public class ColorPicker : MonoBehaviour
                 slot2 = slot1;
                 slot1 = col.gameObject.name;
             }
-            Debug.Log("Slot 1: " + slot1);
-            Debug.Log("Slot 2: " + slot2);
+            
+            //Debug.Log("Slot 1: " + slot1);
+            //Debug.Log("Slot 2: " + slot2);
         }
         
 

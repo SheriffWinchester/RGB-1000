@@ -16,7 +16,6 @@ public class EnemyBulletVelocity : MonoBehaviour
     void Update()
     {
         _velocity = _rigidBody.velocity;
-        Debug.Log(_velocity);
     }
 
     void OnCollisionEnter2D(Collision2D col)

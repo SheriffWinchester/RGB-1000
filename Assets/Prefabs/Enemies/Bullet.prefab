@@ -148,6 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6f85c75a5a2af941b9626a91e80d24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _bulletColor: {fileID: 5033258131257684661}
+  scoreController: {fileID: 0}
 --- !u!114 &5033258131257684661
 MonoBehaviour:
   m_ObjectHideFlags: 0

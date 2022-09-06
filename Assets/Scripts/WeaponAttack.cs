@@ -25,9 +25,9 @@ public class WeaponAttack : MonoBehaviour
     void Update() {
         if (Input.GetMouseButtonDown(0) && Time.time > nextFire)
         {
-            Debug.Log("Time.time - " + Time.time);
+            //Debug.Log("Time.time - " + Time.time);
             nextFire = Time.time + fireRate;
-            Debug.Log("nextFire - " + nextFire);
+            //Debug.Log("nextFire - " + nextFire);
             ShootBullet();
         }
         colorWeapon = _colorPicker.colorWeapon;

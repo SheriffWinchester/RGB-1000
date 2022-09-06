@@ -34,7 +34,7 @@ public class EnemySpawner : MonoBehaviour
             spawnX = Random.Range(-5.0f, -1.0f);
             forceAngleX = Random.Range(4.0f, -2.5f);
             forceAngleY = Random.Range(4.0f, -4.0f);
-            forceSpeed = Random.Range(-40f, -60f);
+            forceSpeed = Random.Range(-20f, -40f);
             spawnWait = Random.Range(1.0f, 3.5f);
             prefabRandom = Random.Range(0, 4);
 
