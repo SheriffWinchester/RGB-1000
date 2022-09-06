@@ -21,7 +21,7 @@ public class ScoreController : MonoBehaviour
 
     void Update() 
     {
-        if (score >= 300)
+        if (score >= 110)
         {   
             Time.timeScale = 0;
             winMenu.SetActive(true);
@@ -33,6 +33,7 @@ public class ScoreController : MonoBehaviour
             Time.timeScale = 0;
             loseMenu.SetActive(true);
             scoreLoseText.text = "Score 0";
+            
         }
     }
 }

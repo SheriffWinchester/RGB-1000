@@ -5,9 +5,9 @@ using UnityEngine;
 public class Hook : MonoBehaviour
 {
 
-    LineRenderer _LineRenderer;
+    //LineRenderer _LineRenderer;
     Camera mainCamera;
-    GameObject _colorSquare;
+    //GameObject _colorSquare;
     //[SerializeField] public LayerMask _layerMask;
     string[] colors = {"WhiteColor", "BlackColor", "RedColor", "GreenColor", "BlueColor"};
     public float laserLength = 10f;
@@ -22,7 +22,7 @@ public class Hook : MonoBehaviour
     
     void Start()
     {
-        _LineRenderer = GetComponent<LineRenderer>();
+        //_LineRenderer = GetComponent<LineRenderer>();
         mainCamera = Camera.main;
     }
 
